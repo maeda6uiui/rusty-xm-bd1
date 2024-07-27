@@ -28,7 +28,7 @@ pub struct Block{
 }
 
 impl Block{
-    fn new()->Self{
+    pub fn new()->Self{
         let mut vertex_positions=vec![];
         for _ in 0..8{
             vertex_positions.push(Vector3f::new(0.0, 0.0, 0.0));
